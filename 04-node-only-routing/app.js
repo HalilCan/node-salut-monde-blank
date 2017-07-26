@@ -27,7 +27,7 @@ module.exports = {
         break;
       default:
         response.writeHead(404);
-        repsonse.write('Route not defined');
+        response.write('Route not defined');
         response.end();
     }
   }
